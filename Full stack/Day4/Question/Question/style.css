@@ -1,0 +1,25 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+p{
+  color: red;
+}
+.A{
+    font-size: 20px;
+}
+#B{
+  color: darkgreen;
+}
+.C{
+    color: rgb(48, 8, 168);
+    text-align: center;
+}
+.D{
+  text-align: center;
+
+}
+
+
+/* Write your CSS below, don't change the rules above. */
