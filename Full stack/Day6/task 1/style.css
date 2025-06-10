@@ -1,0 +1,20 @@
+/* Don't change the existing CSS. */
+.box {
+  background-color: blue;
+  padding: 10px;
+  
+}
+
+p {
+  color: yellow;
+  margin: -10px;
+  padding: 10px;
+  font-size: 35px;
+}
+#outer-box{
+  border: 20px solid;
+  border-color: blueviolet;
+}
+#inn{
+  background-color: crimson;
+}

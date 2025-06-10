@@ -1,0 +1,22 @@
+/* Write your code here: */
+h1{
+    color: blueviolet;
+}
+h2{
+    color:blueviolet;
+}
+.box p{
+    color: brown;
+
+}
+.box ul{
+    color:blueviolet;
+
+}
+.done{
+    color: darkgreen;
+
+}
+ul p.done{
+    font-size: 0.5rem;
+}
