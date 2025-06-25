@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task List with Delete</title>
+</head>
+<body>
+  <input id="taskInput" type="text" />
+  <button id="addBtn">Add Task</button>
+  <ul id="taskList"></ul>
+
+  <script>
+    document.getElementById("addBtn").addEventListener("click", () => {
+      const taskText = document.getElementById("taskInput").value;
+      if (taskText.trim() === "") return;
+
+      const li = document.createElement("li");
+      li.innerText = taskText;
+
+      const delBtn = document.createElement("button");
+      delBtn.innerText = "delete";
+      delBtn.style.marginLeft = "10px";
+      delBtn.addEventListener("click", () => {
+        li.remove();
+      });
+
+      li.appendChild(delBtn);
+      document.getElementById("taskList").appendChild(li);
+      document.getElementById("taskInput").value = "";
+    });
+  </script>
+</body>
+</html>
